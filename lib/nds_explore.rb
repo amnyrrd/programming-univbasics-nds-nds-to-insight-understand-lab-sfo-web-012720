@@ -15,13 +15,6 @@ def print_first_directors_movie_titles
       end
     row_index += 1
   end
-  # pp directors_database
-  # p directors_database[0][:movies][0][:title]
-  # p directors_database[0][:movies][1][:title]
-  # p directors_database[0][:movies][2][:title]
-  # p directors_database[0][:movies][3][:title]
-  # p directors_database[0][:movies][4][:title]
-  # p directors_database[0][:movies][5][:title]
 end
 
 def pretty_print_nds(nds)
