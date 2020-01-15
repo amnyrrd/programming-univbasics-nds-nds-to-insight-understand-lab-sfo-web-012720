@@ -7,13 +7,11 @@ def print_first_directors_movie_titles
   row_index = 0
   while row_index < directors_database.length do
       column_index = 0
-      while column_index < directors_database[row_index][:name][column_index].length do
+      while column_index < directors_database[row_index][:name][row_index].length do
           if directors_database[row_index][:name].include?("Stephen Spielberg")
             puts directors_database[row_index][:movies][column_index][:title]
-                  column_index += 1
           end
-          
-
+         column_index += 1
       end
     row_index += 1
   end
